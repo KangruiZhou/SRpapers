@@ -13,7 +13,7 @@
 
 For centuries, physicists and mathematicians have pursued the elegant simplicity of symbolic equations to describe complex phenomena—from Newton's laws of motion to Maxwell's electromagnetic field equations. Yet when confronting ​​multiscale systems​ or ​​nonlinear dynamics​ (e.g. neuroscience, climate science, and financial markets), traditional derivation methods encounter an exponential explosion in the hypothesis space. The combinatorial complexity of potential governing equations renders brute-force symbolic search computationally prohibitive. 
 
-The advent of data-driven discovery offers a paradigm shift. Machine learning (ML) techniques seem to be a powerful tool to uncover underlying physical laws or governing equations from sparse/noisy observations. So, how can we use machine learning to accelerate model discovery in the physical sciences?
+The advent of data-driven discovery offers a paradigm shift. Machine learning (ML) techniques seem to be a powerful tool to uncover underlying physical laws or governing equations from sparse/noisy observations. So, how can we use machine learning to accelerate model discovery in the science?
 
 In this repo, I list some representative work on SR and give some personal comment. Let's collectively decode the algorithms accelerating scientific discovery!
 
@@ -29,7 +29,6 @@ In this repo, I list some representative work on SR and give some personal comme
 3. **Data-driven discovery of partial differential equations**, *Samuel H. Rudy, Steven L. Brunton, Joshua L. Proctor, J. Nathan Kutz*, Science Advances, 2017. [[paper](https://www.science.org/doi/abs/10.1126/sciadv.1602614)][[code](https://github.com/snagcliffs/PDE-FIND)]
 4. **SINDy-RL: Interpretable and Efficient Model-Based Reinforcement Learning**, *Nicholas Zolman, Urban Fasel, J. Nathan Kutz, Steven L. Brunton*, arXiv, 2024. [[paper](https://arxiv.org/abs/2403.09110)][[code](https://github.com/nzolman/sindy-rl)]
 
-<!-- ### Papers on Autoregression-based SR Models -->
 ### Papers on DRL-based SR Models
 1. **Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients**, *Brenden K. Petersen, Mikel L, ajuela, T. Nathan Mundhenk, Claudio P. Santiago, Soo K. Kim, Joanne T. Kim*, ICLR, 2021. [[paper](https://arxiv.org/abs/1912.04871)][[code](https://github.com/TommasoBendinelli/deep-symbolic-regression)]
 2.  **Symbolic Regression via Neural-Guided Genetic Programming Population Seeding**, *T. Nathan Mundhenk, Mikel L, ajuela, Ruben Glatt, Claudio P. Santiago, Daniel M. Faissol, Brenden K. Petersen*, NIPS, 2021. [[paper](https://arxiv.org/abs/2111.00053)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
