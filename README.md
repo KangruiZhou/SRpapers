@@ -8,7 +8,6 @@
     - [Papers on Transformer-based SR Models](#papers-on-transformer-based-sr-models)
     - [Papers on Applications](#papers-on-applications)
     - [Papers that I haven't decided the label yet](#papers-that-i-havent-decided-the-label-yet)
-  - [MMLpapers](#mmlpapers)
 ## SRpapers
 ### Introduction
 
@@ -36,6 +35,7 @@ In this repo, I list some representative work on SR and give some personal comme
 2.  **Symbolic Regression via Neural-Guided Genetic Programming Population Seeding**, *T. Nathan Mundhenk, Mikel L, ajuela, Ruben Glatt, Claudio P. Santiago, Daniel M. Faissol, Brenden K. Petersen*, NIPS, 2021. [[paper](https://arxiv.org/abs/2111.00053)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
 3.  **AI Feynman: a Physics-Inspired Method for Symbolic Regression**, *Silviu-Marian Udrescu, Max Tegmark*, Science Advances, 2020. [[paper](https://arxiv.org/abs/1905.11481)][[code](https://github.com/SJ001/AI-Feynman)]
 4.  **A Unified Framework for Deep Symbolic Regression**, *Mikel L, ajuela, Chak Lee, Jiachen Yang, Ruben Glatt, Claudio P. Santiago, Ignacio Aravena, Terrell N. Mundhenk, Garrett Mulcahy, Brenden K. Petersen*, NIPS, 2022. [[paper](https://openreview.net/forum?id=2FNnBhwJsHK)][[code](https://github.com/brendenpetersen/deep-symbolic-optimization)]
+5.  **Discovering symbolic policies with deep reinforcement learning**, *L, Mikel ajuela, Brenden K Petersen, Sookyung Kim, Claudio P Santiago, Ruben Glatt, Nathan Mundhenk, Jacob F Pettit, Daniel Faissol*, ICML, 2021. [[paper](https://proceedings.mlr.press/v139/landajuela21a/landajuela21a.pdf)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
 
 ### Papers on Transformer-based SR Models
 1. **SymbolicGPT: A Generative Transformer Model for Symbolic Regression**, *Mojtaba Valipour, Bowen You, Maysum Panju, Ali Ghodsi*, arXiv, 2021. [[paper](https://arxiv.org/abs/2106.14131)][[code](https://github.com/mojivalipour/symbolicgpt)]
@@ -50,6 +50,7 @@ In this repo, I list some representative work on SR and give some personal comme
 10. **PROSE: Predicting Multiple Operators and Symbolic Expressions using multimodal transformers**, *Yuxuan Liu, Zecheng Zhang, Hayden Schaeffer*, Neural Networks, 2024. [[paper](https://www.sciencedirect.com/science/article/pii/S0893608024006312)][[code](https://github.com/felix-lyx/prose)]
 11.  **Transformer-based model for symbolic regression via joint supervised learning**, *Wenqiang Li, Weijun Li, Linjun Sun, Min Wu, Lina Yu, Jingyi Liu, Yanjie Li, Songsong Tian*, **UNKNOWN_JOURNAL**, 2023. [[paper](https://openreview.net/forum?id=ULzyv9M1j5)][[code](https://github.com/AILWQ/Joint_Supervised_Learning_for_SR)]
 12.  **A Neural Symbolic Model for Space Physics**, *Jie Ying, Haowei Lin, Chao Yue, Yajie Chen, Chao Xiao, Quanqi Shi, Yitao Liang, Shing-Tung Yau, Yuan Zhou, Jianzhu Ma*, arXiv, 2025. [[paper](https://arxiv.org/abs/2503.07994)][[code](https://github.com/Jie0618/PhysicsRegression)]
+13.  **Deep Generative Symbolic Regression**, *Samuel Holt, Zhaozhi Qian, Mihaela van der Schaar*, ICLR, 2023. [[paper](https://openreview.net/pdf?id=o7koEEMA1bR)][[code](https://github.com/samholt/DeepGenerativeSymbolicRegression)]
 
 ### Papers on Applications
 1. **Rediscovering the Mullins effect with deep symbolic regression**, *Rasul Abdusalamov, Jendrik Weise, Mikhail Itskov*, International Journal of Plasticity, 2024. [[paper](https://www.sciencedirect.com/science/article/pii/S0749641924001645)][[code]()]
@@ -60,7 +61,7 @@ In this repo, I list some representative work on SR and give some personal comme
 ### Papers that I haven't decided the label yet
 1. **Contemporary Symbolic Regression Methods and their Relative Performance**, *William La Cava, Patryk Orzechowski, Bogdan Burlacu, Fabricio Olivetti de Franca, Marco Virgolin, Ying Jin, Michael Kommenda, Jason H. Moore*, NIPS, 2021. [[paper](https://openreview.net/forum?id=xVQMrDLyGst)][[code](https://github.com/cavalab/srbench/)]
 2. **SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert Interpretation**, *F. O. de Franca, M. Virgolin, M. Kommenda, M. S. Majumder, M. Cranmer, G. Espada, L. Ingelse, A. Fonseca, L, M. ajuela, B. Petersen, R. Glatt, N. Mundhenk, C. S. Lee, J. D. Hochhalter, R, D. L. all, P. Kamienny, H. Zhang, G. Dick, A. Simon, B. Burlacu, Jaan Kasak, Meera Machado, Casper Wilstrup, W. G. La Cavaz*, IEEE Transactions on Evolutionary Computation, 2024. [[paper](https://doi.org/10.1109/TEVC.2024.3423681)][[code](https://github.com/cavalab/srbench/tree/Competition2022)]
+3. **Grammar variational autoencoder**, *Matt J. Kusner, Brooks Paige, Jos\'{e} Miguel Hern\'{a}ndez-Lobato*, ICML, 2017. [[paper](https://dl.acm.org/doi/pdf/10.5555/3305381.3305582)][[code](https://github.com/mkusner/grammarVAE)]
 
-GrammarVAE , Deep Generative Symbolic Regression, Discovering symbolic policies with deep reinforcement learning
+Deep Generative Symbolic Regression, Discovering symbolic policies with deep reinforcement learning
 
-## MMLpapers
