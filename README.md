@@ -62,6 +62,3 @@ In this repo, I list some representative work on SR and give some personal comme
 1. **Contemporary Symbolic Regression Methods and their Relative Performance**, *William La Cava, Patryk Orzechowski, Bogdan Burlacu, Fabricio Olivetti de Franca, Marco Virgolin, Ying Jin, Michael Kommenda, Jason H. Moore*, NIPS, 2021. [[paper](https://openreview.net/forum?id=xVQMrDLyGst)][[code](https://github.com/cavalab/srbench/)]
 2. **SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert Interpretation**, *F. O. de Franca, M. Virgolin, M. Kommenda, M. S. Majumder, M. Cranmer, G. Espada, L. Ingelse, A. Fonseca, L, M. ajuela, B. Petersen, R. Glatt, N. Mundhenk, C. S. Lee, J. D. Hochhalter, R, D. L. all, P. Kamienny, H. Zhang, G. Dick, A. Simon, B. Burlacu, Jaan Kasak, Meera Machado, Casper Wilstrup, W. G. La Cavaz*, IEEE Transactions on Evolutionary Computation, 2024. [[paper](https://doi.org/10.1109/TEVC.2024.3423681)][[code](https://github.com/cavalab/srbench/tree/Competition2022)]
 3. **Grammar variational autoencoder**, *Matt J. Kusner, Brooks Paige, Jos\'{e} Miguel Hern\'{a}ndez-Lobato*, ICML, 2017. [[paper](https://dl.acm.org/doi/pdf/10.5555/3305381.3305582)][[code](https://github.com/mkusner/grammarVAE)]
-
-Deep Generative Symbolic Regression, Discovering symbolic policies with deep reinforcement learning
-
