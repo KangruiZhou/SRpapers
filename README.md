@@ -5,7 +5,7 @@
     - [Papers on NN-based SR Models](#papers-on-nn-based-sr-models)
     - [Papers on SINDy-based SR Models](#papers-on-sindy-based-sr-models)
     - [Papers on DRL-based SR Models](#papers-on-drl-based-sr-models)
-    - [Papers on Transformer-based SR Models](#papers-on-transformer-based-sr-models)
+    - [Papers on Pre-training SR Models](#papers-on-pre-training-sr-models)
     - [Papers on Applications](#papers-on-applications)
     - [Papers that I haven't decided the label yet](#papers-that-i-havent-decided-the-label-yet)
 ## SRpapers
@@ -36,13 +36,13 @@ In this repo, I list some representative work on SR and give some personal comme
 4.  **A Unified Framework for Deep Symbolic Regression**, *Mikel L, ajuela, Chak Lee, Jiachen Yang, Ruben Glatt, Claudio P. Santiago, Ignacio Aravena, Terrell N. Mundhenk, Garrett Mulcahy, Brenden K. Petersen*, NIPS, 2022. [[paper](https://openreview.net/forum?id=2FNnBhwJsHK)][[code](https://github.com/brendenpetersen/deep-symbolic-optimization)]
 5.  **Discovering symbolic policies with deep reinforcement learning**, *L, Mikel ajuela, Brenden K Petersen, Sookyung Kim, Claudio P Santiago, Ruben Glatt, Nathan Mundhenk, Jacob F Pettit, Daniel Faissol*, ICML, 2021. [[paper](https://proceedings.mlr.press/v139/landajuela21a/landajuela21a.pdf)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
 
-### Papers on Transformer-based SR Models
+### Papers on Pre-training SR Models
 1. **SymbolicGPT: A Generative Transformer Model for Symbolic Regression**, *Mojtaba Valipour, Bowen You, Maysum Panju, Ali Ghodsi*, arXiv, 2021. [[paper](https://arxiv.org/abs/2106.14131)][[code](https://github.com/mojivalipour/symbolicgpt)]
 2. **Neural Symbolic Regression that scales**, *Luca Biggio, Tommaso Bendinelli, Alex Neitz, er, Aurelien Lucchi, Parasc, Giambattista olo*, ICML, 2021. [[paper](https://proceedings.mlr.press/v139/biggio21a.html)][[code](https://github.com/SymposiumOrganization/NeuralSymbolicRegressionThatScales)]
 3. **End-to-end symbolic regression with transformers**, *Pierre-Alex Kamienny, re, Stéphane d'Ascoli, Guillaume Lample, François Charton*, NIPS, 2022. [[paper](https://dl.acm.org/doi/10.5555/3600270.3601016)][[code](https://github.com/facebookresearch/symbolicregression)]
 4. **Transformer-based Planning for Symbolic Regression**, *Parshin Shojaee, Kazem Meidani, Amir Barati Farimani, Ch Reddy, an*, NIPS, 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/8ffb4e3118280a66b192b6f06e0e2596-Paper-Conference.pdf)][[code](https://github.com/deep-symbolic-mathematics/TPSR)]
 5. **Controllable neural symbolic regression**, *Tommaso Bendinelli, Luca Biggio, Pierre-Alex Kamienny, re*, ICML, 2023. [[paper](https://dl.acm.org/doi/10.5555/3618408.3618496)][[code](https://github.com/SymposiumOrganization/ControllableNeuralSymbolicRegression)]
-6. **SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training**, *Kazem Meidani, Parshin Shojaee, Ch, an K. Reddy, Amir Barati Farimani*, ICLR, 2024. [[paper](https://openreview.net/forum?id=KZSEgJGPxu)][[code](https://github.com/deep-symbolic-mathematics/Multimodal-Math-Pretraining)]
+6. **SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training**, *Kazem Meidani, Parshin Shojaee, Ch, an K. Reddy, Amir Barati Farimani*, ICLR, 2024. [[paper](https://openreview.net/pdf?id=KZSEgJGPxu)][[code](https://github.com/deep-symbolic-mathematics/Multimodal-Math-Pretraining)]
 7. **In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery**, *Matteo Merler, Katsiaryna Haitsiukevich, Nicola Dainese, Pekka Marttinen*, arXiv, 2024. [[paper](http://dx.doi.org/10.18653/v1/2024.acl-srw.49)][[code](https://github.com/merlerm/In-Context-Symbolic-Regression)]
 8. **MMSR: Symbolic regression is a multi-modal information fusion task**, *Yanjie Li, Jingyi Liu, Min Wu, Lina Yu, Weijun Li, Xin Ning, Wenqiang Li, Meilan Hao, Yusong Deng, Shu Wei*, Information Fusion, 2025. [[paper](https://www.sciencedirect.com/science/article/pii/S1566253524004597)][[code](https://github.com/1716757342/MMSR)]
 9. **LLM-SR: Scientific Equation Discovery via Programming with Large Language Models**, *Parshin Shojaee, Kazem Meidani, Shashank Gupta, Amir Barati Farimani, Ch, an K. Reddy*, ICLR, 2025. [[paper](https://openreview.net/forum?id=m2nmp8P5in)][[code](https://github.com/deep-symbolic-mathematics/LLM-SR)]
@@ -50,6 +50,9 @@ In this repo, I list some representative work on SR and give some personal comme
 11.  **Transformer-based model for symbolic regression via joint supervised learning**, *Wenqiang Li, Weijun Li, Linjun Sun, Min Wu, Lina Yu, Jingyi Liu, Yanjie Li, Songsong Tian*, **UNKNOWN_JOURNAL**, 2023. [[paper](https://openreview.net/forum?id=ULzyv9M1j5)][[code](https://github.com/AILWQ/Joint_Supervised_Learning_for_SR)]
 12.  **A Neural Symbolic Model for Space Physics**, *Jie Ying, Haowei Lin, Chao Yue, Yajie Chen, Chao Xiao, Quanqi Shi, Yitao Liang, Shing-Tung Yau, Yuan Zhou, Jianzhu Ma*, arXiv, 2025. [[paper](https://arxiv.org/abs/2503.07994)][[code](https://github.com/Jie0618/PhysicsRegression)]
 13.  **Deep Generative Symbolic Regression**, *Samuel Holt, Zhaozhi Qian, Mihaela van der Schaar*, ICLR, 2023. [[paper](https://openreview.net/pdf?id=o7koEEMA1bR)][[code](https://github.com/samholt/DeepGenerativeSymbolicRegression)]
+14.  **Symbolic regression via MDLformer-guided search: from minimizing prediction error to minimizing description length**, *Zihan Yu, Jingtao Ding, Yong Li, Depeng Jin*, ICLR, 2025. [[paper](https://openreview.net/pdf?id=ljAS7cPAU0)][[code](https://github.com/tsinghua-fib-lab/SR4MDL)]
+- Adopt minimizing description length instead of predict error to evaluate equations. Two optimization objectives: contrastive loss of latent arary (similar way in [SNIP](https://openreview.net/pdf?id=KZSEgJGPxu)) and prediction loss of equations' complexity $\mathcal{M}_{\Phi}(x,y)$. In the inferring process, $\frac{1}{1+\mathcal{M}_{\Phi}(x,y)}$ as reward.
+15.  **Deep generative symbolic regression with Monte-Carlo-tree-search**, *Pierre-Alex Kamienny, re, Guillaume Lample, Sylvain Lamprier, Marco Virgolin*, ICML, 2023. [[paper](https://proceedings.mlr.press/v202/kamienny23a/kamienny23a.pdf)][No code]
 
 ### Papers on Applications
 1. **Rediscovering the Mullins effect with deep symbolic regression**, *Rasul Abdusalamov, Jendrik Weise, Mikhail Itskov*, International Journal of Plasticity, 2024. [[paper](https://www.sciencedirect.com/science/article/pii/S0749641924001645)][[code]()]
