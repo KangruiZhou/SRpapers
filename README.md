@@ -8,6 +8,7 @@
     - [Papers on Pre-training SR Models](#papers-on-pre-training-sr-models)
     - [Papers on Applications](#papers-on-applications)
     - [Papers that I haven't decided the label yet](#papers-that-i-havent-decided-the-label-yet)
+    - [todo](#todo)
 ## SRpapers
 ### Introduction
 
@@ -31,10 +32,14 @@ In this repo, I list some representative work on SR and give some personal comme
 
 ### Papers on DRL-based SR Models
 1. **Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients**, *Brenden K. Petersen, Mikel L, ajuela, T. Nathan Mundhenk, Claudio P. Santiago, Soo K. Kim, Joanne T. Kim*, ICLR, 2021. [[paper](https://arxiv.org/abs/1912.04871)][[code](https://github.com/TommasoBendinelli/deep-symbolic-regression)]
-2.  **Symbolic Regression via Neural-Guided Genetic Programming Population Seeding**, *T. Nathan Mundhenk, Mikel L, ajuela, Ruben Glatt, Claudio P. Santiago, Daniel M. Faissol, Brenden K. Petersen*, NIPS, 2021. [[paper](https://arxiv.org/abs/2111.00053)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
+2.  **Symbolic Regression via Neural-Guided Genetic Programming Population Seeding**, *T. Nathan Mundhenk, Mikel L, ajuela, Ruben Glatt, Claudio P. Santiago, Daniel M. Faissol, Brenden K. Petersen*, NIPS, 2021. [[paper](https://openreview.net/pdf?id=m5Qsh0kBQG)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
 3.  **AI Feynman: a Physics-Inspired Method for Symbolic Regression**, *Silviu-Marian Udrescu, Max Tegmark*, Science Advances, 2020. [[paper](https://arxiv.org/abs/1905.11481)][[code](https://github.com/SJ001/AI-Feynman)]
 4.  **A Unified Framework for Deep Symbolic Regression**, *Mikel L, ajuela, Chak Lee, Jiachen Yang, Ruben Glatt, Claudio P. Santiago, Ignacio Aravena, Terrell N. Mundhenk, Garrett Mulcahy, Brenden K. Petersen*, NIPS, 2022. [[paper](https://openreview.net/forum?id=2FNnBhwJsHK)][[code](https://github.com/brendenpetersen/deep-symbolic-optimization)]
 5.  **Discovering symbolic policies with deep reinforcement learning**, *L, Mikel ajuela, Brenden K Petersen, Sookyung Kim, Claudio P Santiago, Ruben Glatt, Nathan Mundhenk, Jacob F Pettit, Daniel Faissol*, ICML, 2021. [[paper](https://proceedings.mlr.press/v139/landajuela21a/landajuela21a.pdf)][[code](https://github.com/dso-org/deep-symbolic-optimization)]
+6.  **Reinforcement Symbolic Regression Machine**, *Yilong Xu, Yang Liu, Hao Sun*, ICLR, 2024. [[paper](https://openreview.net/pdf?id=PJVUWpPnZC)][[code](https://github.com/intell-sci-comput/RSRM)]
+7.  **Symbolic Physics Learner: Discovering governing equations via Monte Carlo tree search**, *Fangzheng Sun, Yang Liu, Jian-Xun Wang, Hao Sun*, ICLR, 2023. [[paper](https://openreview.net/pdf?id=ZTK3SefE8_Z)][[code](https://github.com/isds-neu/SymbolicPhysicsLearner)]
+8.  
+
 
 ### Papers on Pre-training SR Models
 1. **SymbolicGPT: A Generative Transformer Model for Symbolic Regression**, *Mojtaba Valipour, Bowen You, Maysum Panju, Ali Ghodsi*, arXiv, 2021. [[paper](https://arxiv.org/abs/2106.14131)][[code](https://github.com/mojivalipour/symbolicgpt)]
@@ -52,7 +57,7 @@ In this repo, I list some representative work on SR and give some personal comme
 13.  **Deep Generative Symbolic Regression**, *Samuel Holt, Zhaozhi Qian, Mihaela van der Schaar*, ICLR, 2023. [[paper](https://openreview.net/pdf?id=o7koEEMA1bR)][[code](https://github.com/samholt/DeepGenerativeSymbolicRegression)]
 14.  **Symbolic regression via MDLformer-guided search: from minimizing prediction error to minimizing description length**, *Zihan Yu, Jingtao Ding, Yong Li, Depeng Jin*, ICLR, 2025. [[paper](https://openreview.net/pdf?id=ljAS7cPAU0)][[code](https://github.com/tsinghua-fib-lab/SR4MDL)]
 - Adopt minimizing description length instead of predict error to evaluate equations. Two optimization objectives: contrastive loss of latent arary (similar way in [SNIP](https://openreview.net/pdf?id=KZSEgJGPxu)) and prediction loss of equations' complexity $\mathcal{M}_{\Phi}(x,y)$. In the inferring process, $\frac{1}{1+\mathcal{M}_{\Phi}(x,y)}$ as reward.
-15.  **Deep generative symbolic regression with Monte-Carlo-tree-search**, *Pierre-Alex Kamienny, re, Guillaume Lample, Sylvain Lamprier, Marco Virgolin*, ICML, 2023. [[paper](https://proceedings.mlr.press/v202/kamienny23a/kamienny23a.pdf)][No code]
+15.   **Deep generative symbolic regression with Monte-Carlo-tree-search**, *Pierre-Alex Kamienny, re, Guillaume Lample, Sylvain Lamprier, Marco Virgolin*, ICML, 2023. [[paper](https://proceedings.mlr.press/v202/kamienny23a/kamienny23a.pdf)][No code]
 
 ### Papers on Applications
 1. **Rediscovering the Mullins effect with deep symbolic regression**, *Rasul Abdusalamov, Jendrik Weise, Mikhail Itskov*, International Journal of Plasticity, 2024. [[paper](https://www.sciencedirect.com/science/article/pii/S0749641924001645)][[code]()]
@@ -64,3 +69,9 @@ In this repo, I list some representative work on SR and give some personal comme
 1. **Contemporary Symbolic Regression Methods and their Relative Performance**, *William La Cava, Patryk Orzechowski, Bogdan Burlacu, Fabricio Olivetti de Franca, Marco Virgolin, Ying Jin, Michael Kommenda, Jason H. Moore*, NIPS, 2021. [[paper](https://openreview.net/forum?id=xVQMrDLyGst)][[code](https://github.com/cavalab/srbench/)]
 2. **SRBench++: Principled Benchmarking of Symbolic Regression With Domain-Expert Interpretation**, *F. O. de Franca, M. Virgolin, M. Kommenda, M. S. Majumder, M. Cranmer, G. Espada, L. Ingelse, A. Fonseca, L, M. ajuela, B. Petersen, R. Glatt, N. Mundhenk, C. S. Lee, J. D. Hochhalter, R, D. L. all, P. Kamienny, H. Zhang, G. Dick, A. Simon, B. Burlacu, Jaan Kasak, Meera Machado, Casper Wilstrup, W. G. La Cavaz*, IEEE Transactions on Evolutionary Computation, 2024. [[paper](https://doi.org/10.1109/TEVC.2024.3423681)][[code](https://github.com/cavalab/srbench/tree/Competition2022)]
 3. **Grammar variational autoencoder**, *Matt J. Kusner, Brooks Paige, Jos\'{e} Miguel Hern\'{a}ndez-Lobato*, ICML, 2017. [[paper](https://dl.acm.org/doi/pdf/10.5555/3305381.3305582)][[code](https://github.com/mkusner/grammarVAE)]
+
+### todo
+Symbolic Regression Enhanced Decision Trees for Classification Tasks
+D-CODE: DISCOVERING CLOSED-FORM ODES FROM OBSERVED TRAJECTORIES
+PhysPDE: Rethinking PDE Discovery and a Physical HYpothesis Selection Benchmark
+A Neural-Guided Dynamic Symbolic Network for Exploring Mathematical Expressions from Data.
